@@ -1,0 +1,64 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    padding: 20px;
+    height: 60px;
+    left:0;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;}
+
+
+    #ktiba {
+        position: relative;
+
+    top: -20px;
+    }
+    
+.myButton {
+    background-color:transparent;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+    border:1px solid #29668f;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Verdana;
+    font-size:12px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+    background-color:transparent;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
